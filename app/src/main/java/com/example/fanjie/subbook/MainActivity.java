@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 sublist.remove(pos1);
-                
+
                 totalch.setText(Addcharge(sublist));
 
                 saveInFile();
